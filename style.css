@@ -785,6 +785,7 @@ footer{
         height: auto;
         justify-content: center;
         align-items: flex-end;
+        margin-bottom: 40px;
     }
     .hero-right img {
         max-height: 45vh;
@@ -792,16 +793,12 @@ footer{
         transform-origin: bottom center;
     }
     .scroll-down {
-        position: static;
-        display: inline-block;
-        margin-top: 40px;
-        left: auto;
-        bottom: auto;
+        display: none;
     }
 
     /* --- ABOUT --- */
     .about {
-        padding: 80px 24px;
+        padding: 50px 24px;
     }
     .about-right {
         padding-top: 0;
